@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>DNB Révision</title>
+		<meta charset="utf-8">
+
+		<link rel="stylesheet" type="text/css" href="../../CSS/index_css.css">
+		<link rel="stylesheet" type="text/css" href="../../CSS/Cours_Maths.css">
+	</head>
+	<body>
+		<!-- Haut de la page(Header) -->
+		<header>
+			<div id="header_page" lang="fr">
+				<h1 style="position: relative; top: 5px;">DNB Révision</h1>
+
+				<div class="dropdown_Maths">
+					<button class="dropdown_btn_Maths">Mathématiques</button>
+					<div class="dropdown_content_Maths">
+						<a href="Cours1_Calculs.html">Les calculs</a>
+						<a href="Cours2_LesPuissances.html">Les puissances</a>
+						<a href="Cours3_Statistiques.html">Les statistiques</a>
+						<a href="Cours4_Fonction.html">Les fonctions</a>
+						<a href="Cours5_CalculLitéral.html">Le calcul littéral</a>
+						<a href="Cours6_Arithmetique.html">L'arithmétique</a>
+						<a href="Cours7_Pourcentage.html">Les pourcentages</a>
+						<a href="Cours8_Probabilités.html">Les probabilités</a>
+
+						<a href="Cours9_PropriétédePythagore.html">Propriété de Pythagore</a>
+						<a href="Cours10_RacineCarrées.html">Les racines carrées</a>
+						<a href="Cours11_RéciproquePytagore.html">La réciproque du théo. de Pythagore</a>
+						<a href="Cours12_Grandeurs.html">Les grandeurs</a>
+						<a href="Cours13_AiresVolumes.html">Les aires et volumes</a>
+						<a href="Cours14_Trigonométrie.html">La trigonométrie</a>
+						<a href="Cours15_PropriétédeThalès.html">Le théorème de Thalès</a>
+						<a href="Cours16_RéciproqueThalès.html">La réciproque du théo. de Thalès</a>
+
+						<a href="RésuméCoursMaths.pdf" download="Résumé des cours de Mathématiques.pdf" style="color: red;">Télécharger</a>
+					</div>
+				</div>
+
+				<div class="dropdown_Français">
+					<button class="dropdown_btn_Français">Français</button>
+					<div class="dropdown_content_Français">
+						<a href="../Français/Cours1_Somaire.html">Cours</a>
+						<a href="../Français/RésuméCoursFrançais.pdf" style="color: red;">Télécharger</a>
+					</div>
+				</div>
+
+				<div class="dropdown_HistGéoEmc">
+					<button class="dropdown_btn_HistGéoEmc">Histoire/Géographie/EMC</button>
+					<div class="dropdown_content_HistGéoEmc">
+						<a href="">#</a>
+						<a href="">#</a>
+						<a href="">#</a> 
+					</div>
+				</div>
+
+				<div class="dropdown_Science">
+					<button class="dropdown_btn_Science">Science</button>
+					<div class="dropdown_content_Science">
+						<a href="../PhysiqueChimie/Cours1_Somaire.html">Physique Chimie</a>
+						<a href="../Svt/Cours1_Somaire.html">SVT</a>
+					</div>
+				</div>
+
+				<!-- ---------- FONCTION HOME ---------- -->
+
+				<a href="../../index.html"><img src="../Img_Index/Img_icon_home.png" id="home_page_fonction_img" alt="Retour à la page de démarrage"></a>
+
+				<!-- ---------- FIN FONCTION HOME ---------- -->
+
+				<!-- ---------- FONCTION DARK MODE ---------- -->
+
+				<img src="../Img_Index/Img_icon_dark_mode.png" alt="dark_mode" id="dark_mode_fonction_img" onclick="dark_mode_fonction()">
+
+				<script type="text/javascript">
+						function dark_mode_fonction() {
+					   	var element = document.body;
+					   	element.classList.toggle("dark-mode");
+					}
+				</script>
+
+				<!-- -------- FIN FONCTION DARK MODE -------- -->
+
+			</div>
+		</header>
+
+		<div id="content">
+			<h2> <U>L'arithmétique</U> </h2>
+				<div class="text_position">
+					<p>☑ 21 est divisible par 3 car 21 = 3 &times; 7 + 0 &rarr; reste = 0 !</p>
+					<p>☑ 21 n’est pas divisible par 4 car 21 = 4 &times; 5 + 1</p>
+					<p>☑ Un nombre est <b>premier</b> lorsqu’il est divisible par exactement 2 nombres : 1 et par lui même. <br><i>Exemples : 2, 3, 5, 7, 11… Cette liste est infinie.</i></p>
+					<p>☑ Pour décomposer 252 en facteurs premiers, on va déterminer ses diviseurs premiers dans l’ordre croissant<br>On obtient ainsi : 252 = 2 &times; 2 &times; 3 &times; 3 &times; 7 = 2<sup>2</sup> &times; 3<sup>2</sup> &times; 7</p>
+					<p>☑ Pour rendre irréductible
+						<span class="fraction">								
+								<span class="numérateur">30</span>
+								<span class="bar">/</span>
+								<span class="dénomirateur">252</span>
+						</span>, on va décomposer numérateur et dénominateur en produit de <br> facteurs premiers !
+
+						<br>
+						<span class="fraction">								
+								<span class="numérateur">30</span>
+								<span class="bar">/</span>
+								<span class="dénomirateur">252</span>
+						</span>
+						<span> = </span>
+						<span class="fraction">								
+								<span class="numérateur"><s>2</s> &times; <s>3</s> &times; 5</span>
+								<span class="bar">/</span>
+								<span class="dénomirateur"><s>2</s> &times; 2 &times; <s>3</s> &times; 3 &times; 7</span>
+						</span>
+						<span> = </span>
+						<span class="fraction">								
+								<span class="numérateur">5</span>
+								<span class="bar">/</span>
+								<span class="dénomirateur">2 &times; 3 &times; 7</span>
+						</span>
+						<span> = </span>
+						<span class="fraction">								
+								<span class="numérateur">5</span>
+								<span class="bar">/</span>
+								<span class="dénomirateur">42</span>
+						</span>
+						</p>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>DNB Révision</title>
+		<meta charset="utf-8">
+
+		<link rel="stylesheet" type="text/css" href="../../CSS/index_css.css">
+		<link rel="stylesheet" type="text/css" href="../../CSS/Cours_Maths.css">
+	</head>
+	<body>
+		<!-- Haut de la page(Header) -->
+		<header>
+			<div id="header_page" lang="fr">
+				<h1 style="position: relative; top: 5px;">DNB Révision</h1>
+
+				<div class="dropdown_Maths">
+					<button class="dropdown_btn_Maths">Mathématiques</button>
+					<div class="dropdown_content_Maths">
+						<a href="Cours1_Calculs.html">Les calculs</a>
+						<a href="Cours2_LesPuissances.html">Les puissances</a>
+						<a href="Cours3_Statistiques.html">Les statistiques</a>
+						<a href="Cours4_Fonction.html">Les fonctions</a>
+						<a href="Cours5_CalculLitéral.html">Le calcul littéral</a>
+						<a href="Cours6_Arithmetique.html">L'arithmétique</a>
+						<a href="Cours7_Pourcentage.html">Les pourcentages</a>
+						<a href="Cours8_Probabilités.html">Les probabilités</a>
+
+						<a href="Cours9_PropriétédePythagore.html">Propriété de Pythagore</a>
+						<a href="Cours10_RacineCarrées.html">Les racines carrées</a>
+						<a href="Cours11_RéciproquePytagore.html">La réciproque du théo. de Pythagore</a>
+						<a href="Cours12_Grandeurs.html">Les grandeurs</a>
+						<a href="Cours13_AiresVolumes.html">Les aires et volumes</a>
+						<a href="Cours14_Trigonométrie.html">La trigonométrie</a>
+						<a href="Cours15_PropriétédeThalès.html">Le théorème de Thalès</a>
+						<a href="Cours16_RéciproqueThalès.html">La réciproque du théo. de Thalès</a>
+
+						<a href="RésuméCoursMaths.pdf" download="Résumé des cours de Mathématiques.pdf" style="color: red;">Télécharger</a>
+					</div>
+				</div>
+
+				<div class="dropdown_Français">
+					<button class="dropdown_btn_Français">Français</button>
+					<div class="dropdown_content_Français">
+						<a href="../Français/Cours1_Somaire.html">Cours</a>
+						<a href="../Français/RésuméCoursFrançais.pdf" style="color: red;">Télécharger</a>
+					</div>
+				</div>
+
+				<div class="dropdown_HistGéoEmc">
+					<button class="dropdown_btn_HistGéoEmc">Histoire/Géographie/EMC</button>
+					<div class="dropdown_content_HistGéoEmc">
+						<a href="">#</a>
+						<a href="">#</a>
+						<a href="">#</a>
+					</div>
+				</div>
+
+				<div class="dropdown_Science">
+					<button class="dropdown_btn_Science">Science</button>
+					<div class="dropdown_content_Science">
+						<a href="../PhysiqueChimie/Cours1_Somaire.html">Physique Chimie</a>
+						<a href="../Svt/Cours1_Somaire.html">SVT</a>
+					</div>
+				</div>
+
+				<!-- ---------- FONCTION HOME ---------- -->
+
+				<a href="../../index.html"><img src="../Img_Index/Img_icon_home.png" id="home_page_fonction_img" alt="Retour à la page de démarrage"></a>
+
+				<!-- ---------- FIN FONCTION HOME ---------- -->
+
+				<!-- ---------- FONCTION DARK MODE ---------- -->
+
+				<img src="../Img_Index/Img_icon_dark_mode.png" alt="dark_mode" id="dark_mode_fonction_img" onclick="dark_mode_fonction()">
+
+				<script type="text/javascript">
+						function dark_mode_fonction() {
+					   	var element = document.body;
+					   	element.classList.toggle("dark-mode");
+					}
+				</script>
+
+				<!-- -------- FIN FONCTION DARK MODE -------- -->
+
+			</div>
+		</header>
+
+		<div id="content">
+			<h2> <U>Les puissances</U> </h2>
+				<div class="text_position">
+					<p>5<sup>3</sup> = 5 &times; 5 &times; 5 ; &#160;&#160;&#160;&#160;&#160; 7<sup>1</sup> = 7 ; 120 = 1 ; &#160;&#160;&#160;&#160;&#160; 10<sup>5</sup> = 100 000</p>
+
+
+					<div class="mots_encadre_rouges" style="margin: 5px; width: 600px; color: red;">
+
+						<p>&#160;&#160;&#160;&#160;&#160;a<sup>n</sup> &times; a<sup>m</sup> = a<sup>n+m</sup>
+
+							&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+
+							<span class="fraction">								
+								<span class="numérateur">a<sup>n</sup></span>
+								<span class="bar">/</span>
+								<span class="dénomirateur">a<sup>m</sup></span>
+							</span>
+							<span>= a<sup>n-m</sup></span>
+
+							&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+
+							<font size="5pt">(</font>a<sup>n</sup><font size="5pt">)</font><sup>m</sup> = a<sup>n&times;m</sup>
+
+							&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+
+							a<sup>-1</sup> = 
+							<span class="fraction">
+								<span class="numérateur">1</span>
+								<span class="bar">/</span>
+								<span class="dénomirateur">a</span>
+							</span>
+						</p>
+					</div>
+
+					<p>☑ Pour multiplier 2 puissances d’un même nombre, on ajoute les exposants et pour <br> diviser 2 puissances d’un même nombre, on soustrait les exposants.</p>
+					<p>☑ Pour prendre la puissance d’une puissance on multiplie les exposants.</p>
+					<p>☑ <b>Notation scientifique</b> : un nombre avec un seul chiffre non nul avant la virgule, <br> multiplié par une puissance de 10.</p>
+
+					<br>
+					<p>&rarr; &#160;&#160;&#160;&#160;&#160;
+						<span class="fraction">
+							<span class="numérateur">7&times;10<sup>3</sup>&times;10<sup>4</sup></span>
+							<span class="bar">/</span>
+							<span class="dénomirateur">5&times;10<sup>5</sup></span>
+						</span>
+						<span>= 1,4&#160;&times;</span>
+						<span class="fraction">
+							<span class="numérateur">10<sup>7</sup></span>
+							<span class="bar">/</span>
+							<span class="dénomirateur">10<sup>5</sup></span>
+						</span>
+						<span>= 1,4 &times; 10<sup>2</sup></span>
+					</p>
+				</div>
+					
+		</div>
+	</body>
+</html>

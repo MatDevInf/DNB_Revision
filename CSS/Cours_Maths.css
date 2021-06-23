@@ -1,0 +1,148 @@
+html, body, div{
+  margin: 0px;
+  padding: 0px;
+}
+
+h3{
+	color: seagreen;
+}
+
+h4{
+	color: darkslateblue;
+}
+
+
+/* MOTS IMPORTANT (EN ROUGES) */
+
+.mots_rouges{
+	color: red;
+}
+
+.mots_rouges{
+	color: red;
+}
+
+.mots_encadre_rouges{
+	border: 2px solid red;
+	padding: 5px;
+}
+
+.mots_entoure_rouges{
+	border: 2px solid red;
+	padding: 5px;
+	border-radius: 15px;
+}
+
+/* FIN DES MOTS IMPORTANTS EN ROUGES */
+
+/* MOTS IMPORTANT EN BLEUS */
+
+.mots_bleus{
+	color: blue;
+}
+
+.mots_encadre_bleus{
+	border: 2px solid blue;
+	padding: 5px;
+}
+
+.mots_entoure_bleus{
+	border: 2px solid blue;
+	padding: 5px;
+	border-radius: 15px;
+}
+
+/* FIN DES MOTS IMPORTANTS EN BLEUS */
+
+.mots_encadre{
+	border: 2px solid black;
+	padding: 5px;
+}
+
+.mots_entoure{
+	border: 2px solid black;
+	padding: 5px;
+	border-radius: 15px;
+}
+
+/*    DÉBUT DES FRACTIONS     */
+.fraction {
+    display: inline-block;
+    vertical-align: middle; 
+    margin: 0 0.2em 0.4ex;
+    text-align: center;
+}
+.fraction > span {
+    display: block;
+    padding-top: 0.15em;
+}
+.fraction span.dénomirateur {border-top: thin solid black;}
+.fraction span.bar {display: none;}
+
+/*    FIN DES FRACTIONS     */
+
+
+
+
+
+
+
+
+
+
+
+/* *************************** IMAGE *************************** */
+#Image_Cours4_Fonction{
+	max-width: 60%;
+	max-height: auto;
+}
+
+#Image_Cours9{
+	max-width: 60%;
+	max-height: auto;
+}
+
+#Image_Cours10{
+	max-width: 60%;
+	max-height: auto;
+}
+
+#Image_Cours11{
+	max-width: 60%;
+	max-height: auto;
+}
+
+#Image_Cours12{
+	max-width: 60%;
+	max-height: auto;
+}
+
+#Image_Cours13{
+	max-width: 60%;
+	max-height: auto;
+}
+
+#Image_Cours14{
+	max-width: 60%;
+	max-height: auto;
+}
+
+#Image_Cours15{
+	max-width: 60%;
+	max-height: auto;
+}
+
+#Image_Cours16{
+	max-width: 60%;
+	max-height: auto;
+}
+
+
+
+#Image_bouton_download_PC{
+	max-width: 150px;
+	max-height: auto;
+
+	position: relative;
+	left: 250px;
+}

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>DNB Révision</title>
+		<meta charset="utf-8">
+
+		<link rel="stylesheet" type="text/css" href="../../CSS/index_css.css">
+		<link rel="stylesheet" type="text/css" href="../../CSS/Cours_Français.css">
+	</head>
+	<body>
+		<!-- Haut de la page(Header) -->
+		<header>
+			<div id="header_page" lang="fr">
+				<h1 style="position: relative; top: 5px;">DNB Révision</h1>
+
+				<div class="dropdown_Maths">
+					<button class="dropdown_btn_Maths">Mathématiques</button>
+					<div class="dropdown_content_Maths">
+						<a href="../Mathématiques/Cours1_Calculs.html">Les calculs</a>
+						<a href="../Mathématiques/Cours2_LesPuissances.html">Les puissances</a>
+						<a href="../Mathématiques/Cours3_Statistiques.html">Les statistiques</a>
+						<a href="../Mathématiques/Cours4_Fonction.html">Les fonctions</a>
+						<a href="../Mathématiques/Cours5_CalculLitéral.html">Le calcul littéral</a>
+						<a href="../Mathématiques/Cours6_Arithmetique.html">L'arithmétique</a>
+						<a href="../Mathématiques/Cours7_Pourcentage.html">Les pourcentages</a>
+						<a href="../Mathématiques/Cours8_Probabilités.html">Les probabilités</a>
+
+						<a href="../Mathématiques/Cours9_PropriétédePythagore.html">Propriété de Pythagore</a>
+						<a href="../Mathématiques/Cours10_RacineCarrées.html">Les racines carrées</a>
+						<a href="../Mathématiques/Cours11_RéciproquePytagore.html">La réciproque du théo. de Pythagore</a>
+						<a href="../Mathématiques/Cours12_Grandeurs.html">Les grandeurs</a>
+						<a href="../Mathématiques/Cours13_AiresVolumes.html">Les aires et volumes</a>
+						<a href="../Mathématiques/Cours14_Trigonométrie.html">La trigonométrie</a>
+						<a href="../Mathématiques/Cours15_PropriétédeThalès.html">Le théorème de Thalès</a>
+						<a href="../Mathématiques/Cours16_RéciproqueThalès.html">La réciproque du théo. de Thalès</a>
+
+						<a href="../Mathématiques/RésuméCoursMaths.pdf" download="Résumé des cours de Mathématiques.pdf" style="color: red;">Télécharger</a>
+					</div>
+				</div>
+
+				<div class="dropdown_Français">
+					<button class="dropdown_btn_Français">Français</button>
+					<div class="dropdown_content_Français">
+						<a href="Cours1_Somaire.html">Cours</a>
+						<a href="RésuméCoursFrançais.pdf" style="color: red;">Télécharger</a>
+					</div>
+				</div>
+
+				<div class="dropdown_HistGéoEmc">
+					<button class="dropdown_btn_HistGéoEmc">Histoire/Géographie/EMC</button>
+					<div class="dropdown_content_HistGéoEmc">
+						<a href="">#</a>
+						<a href="">#</a>
+						<a href="">#</a>
+					</div>
+				</div>
+
+				<div class="dropdown_Science">
+					<button class="dropdown_btn_Science">Science</button>
+					<div class="dropdown_content_Science">
+						<a href="../PhysiqueChimie/Cours1_Somaire.html">Physique Chimie</a>
+						<a href="../Svt/Cours1_Somaire.html">SVT</a>
+					</div>
+				</div>
+
+				<!-- ---------- FONCTION HOME ---------- -->
+
+				<a href="../../index.html"><img src="../Img_Index/Img_icon_home.png" id="home_page_fonction_img" alt="Retour à la page de démarrage"></a>
+
+				<!-- ---------- FIN FONCTION HOME ---------- -->
+
+				<!-- ---------- FONCTION DARK MODE ---------- -->
+
+				<img src="../Img_Index/Img_icon_dark_mode.png" alt="dark_mode" id="dark_mode_fonction_img" onclick="dark_mode_fonction()">
+
+				<script type="text/javascript">
+						function dark_mode_fonction() {
+					   	var element = document.body;
+					   	element.classList.toggle("dark-mode");
+					}
+				</script>
+
+				<!-- -------- FIN FONCTION DARK MODE -------- -->
+
+			</div>
+		</header>
+
+		<div id="content">
+			<h2> <U>Le français</U> </h2>
+				<div class="text_position">
+					<p>Salut à toi ! <br> Dans cette partie du site, le français, il n'y a pas vraiment de cours écrit comme pour les mathématiques !<br> Mais c'est un document PDF à télécharger qui explique très bien tous ce qu'il faut savoir.</p>
+
+					<p>Encore une fois, je te le redis, si tu veux vraiment bien réviser les cours de français, il faut que tu <br> te concentre sur les cours de tes cahiers que tu as eu en classe avec ton/ta prof de français ! Ce cours est <br> juste pour réviser par un résumé rapide ce que tu dois impérativement connaître pour ton brevet !</p>
+
+					<p>Voici le lien de téléchargement : <br></p>
+
+					<a href="RésuméCoursFrançais.pdf" download="Résumé des cours de Français.pdf"><img src="Bouton.jpg" id="Image_bouton_download"></a>
+					
+		</div>
+	</body>
+</html>

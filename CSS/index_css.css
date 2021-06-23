@@ -1,0 +1,355 @@
+/* FEUILLE DE SYYLE POUR LE FICHIER "index.html" */
+
+html, body, div{
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+  font-family: Verdana, Arial;
+  font-size: 14px;
+  background-color: #f9f9f9;
+}
+
+header{
+  background-color: greenyellow;
+  height: 75px;
+  top: 0px;
+}
+
+h1
+{
+  color:red;
+  /*text-shadow: 5px 7px 3px orange;*/
+}
+
+h2
+{
+  color:orange;
+}
+
+h3
+{
+  color: forestgreen;
+}
+
+ul{
+  list-style-position: inside;
+}
+
+
+#content
+{
+  width: 80%;
+  margin:0 auto;
+  background-color: white;
+  text-align: center;
+  align-content: center;
+  margin-top: 25px;
+
+  border: 1px solid black;
+}
+
+.text_position{
+  width: 800px;
+  margin:0 auto;
+  text-align: left;
+
+  position: relative;
+  left: 85px;
+}
+
+.liste_class_center{
+  width: 80%;
+  margin:0 auto;
+  text-align: center;
+
+  position: relative;
+  right: 3%;
+}
+
+.liste_class_center_paragraphe{
+  width: 350px;
+  height: auto;
+  text-align: left;
+
+  position: relative;
+  left: 400px;
+}
+
+/* Définition de la div header_page contenant tous les éléments de header */
+#header_page{
+  text-align: left;
+  align-content: right;
+}
+
+#header_page h1{
+  margin: 0px;
+  padding: 15px 0 0 20px;
+}
+
+/* --------------- MENU HOME --------------- */
+
+#home_page_fonction_img{
+  height: 35px;
+
+  position: relative;
+  left: 45%;
+  bottom: 30px;
+  border-radius: 10px;
+}
+
+/* --------------- FIN MENU HOME --------------- */
+
+
+
+/* --------------- DARK MODE --------------- */
+
+/* Image de l'icon de la fonction dark mode */
+#dark_mode_fonction_img{
+  height: 35px;
+
+  position: relative;
+  left: 45%;
+  bottom: 30px;
+  border-radius: 10px;
+}
+
+.dark-mode {
+  background-color: rgba(40, 44, 52, 1);
+  color: white;
+}
+
+.dark-mode header{
+  background-color: indianred;
+}
+
+.dark-mode h1{
+  color: floralwhite;
+}
+
+.dark-mode h2{
+  color: floralwhite;
+}
+
+.dark-mode p{
+  color: white;
+}
+
+.dark-mode #content{
+  background-color: grey;
+}
+
+.dark-mode .dropdown_btn_Maths{
+  background-color: #0026FE;
+}
+.dark-mode .dropdown_Maths:hover .dropdown_btn_Maths {background-color: #008297;}
+
+
+
+.dark-mode .dropdown_btn_Français{
+  background-color: #0026FE;
+}
+.dark-mode .dropdown_Français:hover .dropdown_btn_Français {background-color: #008297;}
+
+
+
+.dark-mode .dropdown_btn_HistGéoEmc{
+  background-color: #0026FE;
+}
+.dark-mode .dropdown_HistGéoEmc:hover .dropdown_btn_HistGéoEmc {background-color: #008297;}
+
+
+
+.dark-mode .dropdown_btn_Science{
+  background-color: #0026FE;
+}
+.dark-mode .dropdown_Science:hover .dropdown_btn_Science {background-color: #008297;}
+
+
+
+.dark-mode #dark_mode_fonction_img{
+  src: url(Img_Index/Img_icon_dark_mode_drmd.png);
+  height: 35px;
+
+  position: relative;
+  left: 45%;
+  bottom: 30px;
+  border-radius: 10px;
+}
+
+/* ---------------- FIN DARK MODE --------------- */
+
+
+
+
+
+
+
+
+
+/* -------------------------    DÉBUT DU DROPDOWN    ------------------------- */
+
+/* ----- PARTIE Maths ----- */
+.dropdown_btn_Maths {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+
+  border-radius: 15px;
+}
+
+.dropdown_Maths {
+  position: relative;
+  left: 40%;
+  bottom: 40px;
+  display: inline-block;
+}
+
+.dropdown_content_Maths {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown_content_Maths a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown_content_Maths a:hover {background-color: #ddd;}
+
+.dropdown_Maths:hover .dropdown_content_Maths {display: block;}
+
+.dropdown_Maths:hover .dropdown_btn_Maths {background-color: #3e8e41;}
+
+/* ----- PARTIE Français ----- */
+.dropdown_btn_Français {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+
+  border-radius: 15px;
+}
+
+.dropdown_Français {
+  position: relative;
+  left: 40%;
+  bottom: 40px;
+  display: inline-block;
+}
+
+.dropdown_content_Français {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown_content_Français a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown_content_Français a:hover {background-color: #ddd;}
+
+.dropdown_Français:hover .dropdown_content_Français {display: block;}
+
+.dropdown_Français:hover .dropdown_btn_Français {background-color: #3e8e41;}
+
+
+/* ----- PARTIE Histoire-Géo-Emc ----- */
+.dropdown_btn_HistGéoEmc {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+
+  border-radius: 15px;
+}
+
+.dropdown_HistGéoEmc {
+  position: relative;
+  left: 40%;
+  bottom: 40px;
+  display: inline-block;
+}
+
+.dropdown_content_HistGéoEmc {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown_content_HistGéoEmc a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown_content_HistGéoEmc a:hover {background-color: #ddd;}
+
+.dropdown_HistGéoEmc:hover .dropdown_content_HistGéoEmc {display: block;}
+
+.dropdown_HistGéoEmc:hover .dropdown_btn_HistGéoEmc {background-color: #3e8e41;}
+
+
+/* ----- PARTIE Science ----- */
+.dropdown_btn_Science {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+
+  border-radius: 15px;
+}
+
+.dropdown_Science {
+  position: relative;
+  left: 40%;
+  bottom: 40px;
+  display: inline-block;
+}
+
+.dropdown_content_Science {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown_content_Science a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown_content_Science a:hover {background-color: #ddd;}
+
+.dropdown_Science:hover .dropdown_content_Science {display: block;}
+
+.dropdown_Science:hover .dropdown_btn_Science {background-color: #3e8e41;}
+
+/* -------------------------    FIN DU DROPDOWN    ------------------------- */

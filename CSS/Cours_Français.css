@@ -1,0 +1,15 @@
+html, body, div{
+  margin: 0px;
+  padding: 0px;
+}
+
+
+
+/* *************************** IMAGE *************************** */
+#Image_bouton_download{
+	max-width: 150px;
+	max-height: auto;
+
+	position: relative;
+	left: 250px;
+}

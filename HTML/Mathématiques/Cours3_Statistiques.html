@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>DNB Révision</title>
+		<meta charset="utf-8">
+
+		<link rel="stylesheet" type="text/css" href="../../CSS/index_css.css">
+		<link rel="stylesheet" type="text/css" href="../../CSS/Cours_Maths.css">
+	</head>
+	<body>
+		<!-- Haut de la page(Header) -->
+		<header>
+			<div id="header_page" lang="fr">
+				<h1 style="position: relative; top: 5px;">DNB Révision</h1>
+
+				<div class="dropdown_Maths">
+					<button class="dropdown_btn_Maths">Mathématiques</button>
+					<div class="dropdown_content_Maths">
+						<a href="Cours1_Calculs.html">Les calculs</a>
+						<a href="Cours2_LesPuissances.html">Les puissances</a>
+						<a href="Cours3_Statistiques.html">Les statistiques</a>
+						<a href="Cours4_Fonction.html">Les fonctions</a>
+						<a href="Cours5_CalculLitéral.html">Le calcul littéral</a>
+						<a href="Cours6_Arithmetique.html">L'arithmétique</a>
+						<a href="Cours7_Pourcentage.html">Les pourcentages</a>
+						<a href="Cours8_Probabilités.html">Les probabilités</a>
+
+						<a href="Cours9_PropriétédePythagore.html">Propriété de Pythagore</a>
+						<a href="Cours10_RacineCarrées.html">Les racines carrées</a>
+						<a href="Cours11_RéciproquePytagore.html">La réciproque du théo. de Pythagore</a>
+						<a href="Cours12_Grandeurs.html">Les grandeurs</a>
+						<a href="Cours13_AiresVolumes.html">Les aires et volumes</a>
+						<a href="Cours14_Trigonométrie.html">La trigonométrie</a>
+						<a href="Cours15_PropriétédeThalès.html">Le théorème de Thalès</a>
+						<a href="Cours16_RéciproqueThalès.html">La réciproque du théo. de Thalès</a>
+
+						<a href="RésuméCoursMaths.pdf" download="Résumé des cours de Mathématiques.pdf" style="color: red;">Télécharger</a>
+					</div>
+				</div>
+
+				<div class="dropdown_Français">
+					<button class="dropdown_btn_Français">Français</button>
+					<div class="dropdown_content_Français">
+						<a href="../Français/Cours1_Somaire.html">Cours</a>
+						<a href="../Français/RésuméCoursFrançais.pdf" style="color: red;">Télécharger</a>
+					</div>
+				</div>
+
+				<div class="dropdown_HistGéoEmc">
+					<button class="dropdown_btn_HistGéoEmc">Histoire/Géographie/EMC</button>
+					<div class="dropdown_content_HistGéoEmc">
+						<a href="">#</a>
+						<a href="">#</a>
+						<a href="">#</a>
+					</div>
+				</div>
+
+				<div class="dropdown_Science">
+					<button class="dropdown_btn_Science">Science</button>
+					<div class="dropdown_content_Science">
+						<a href="../PhysiqueChimie/Cours1_Somaire.html">Physique Chimie</a>
+						<a href="../Svt/Cours1_Somaire.html">SVT</a>
+					</div>
+				</div>
+
+				<!-- ---------- FONCTION HOME ---------- -->
+
+				<a href="../../index.html"><img src="../Img_Index/Img_icon_home.png" id="home_page_fonction_img" alt="Retour à la page de démarrage"></a>
+
+				<!-- ---------- FIN FONCTION HOME ---------- -->
+
+				<!-- ---------- FONCTION DARK MODE ---------- -->
+
+				<img src="../Img_Index/Img_icon_dark_mode.png" alt="dark_mode" id="dark_mode_fonction_img" onclick="dark_mode_fonction()">
+
+				<script type="text/javascript">
+						function dark_mode_fonction() {
+					   	var element = document.body;
+					   	element.classList.toggle("dark-mode");
+					}
+				</script>
+
+				<!-- -------- FIN FONCTION DARK MODE -------- -->
+
+			</div>
+		</header>
+
+		<div id="content">
+			<h2> <U>Les statistiques</U> </h2>
+				<div class="text_position">
+					<p>Voici les 13 pointures des élèves d’une classe rangées par ordre <b><font size="3pt"><span class="mots_rouges">CROISSANT</span></font></b> :</p>
+					
+					<br>
+					<p>36 ; 36 ; 37 ; 37 ; 37 ; 38 ; <mark>38</mark> ; 39 ; 39 ; 39 ; 40 ; 41 ; 42</p>
+
+					<br>
+					<p>☑ La fréquence de la pointure 39 est :					
+						<span class="fraction">
+							<span class="numérateur">3</span>
+							<span class="bar">/</span>
+							<span class="dénomirateur">13</span>
+						</span>
+						<span>&asymp; 0,23</span>
+					</p>
+
+					<p>☑ <b>La moyenne</b> de cette série est :</p>
+					<p>
+						<i>M</i> = 
+						<span class="fraction">
+							<span class="numérateur">36 + 36 + ... + 42</span>
+							<span class="bar">/</span>
+							<span class="dénomirateur">13</span>
+						</span>
+						<span>= </span>
+						<span class="fraction">
+							<span class="numérateur">499</span>
+							<span class="bar">/</span>
+							<span class="dénomirateur">13</span>
+						</span>
+						<span>&asymp;  38,4</span>
+					</p>
+					<p>☑ <b>L'étendue</b> de cette série est : 42 - 36 = 6</p>
+					<p>☑ Il y a 13 valeurs, la <b>médiane</b> qui partage la série en 2 groupes de <b>même</b> effectif, <br>est la 7ème valeur soit 38. Il y a autant d'élèves qui chaussent du 38 ou moins <br> que d'élèves qui chaussent du 38 ou plus.</p>
+				</div>
+
+		</div>
+	</body>
+</html>
